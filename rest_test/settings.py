@@ -13,17 +13,6 @@ INSTALLED_APPS += [
     'authentication.apps.AuthenticationConfig',
 ]
 
-TEMPLATES += [
-    {
-        'OPTIONS': {
-            'context_processors': [
-                'social_django.context_processors.backends',
-                'social_django.context_processors.login_redirect',
-            ],
-        },
-    }
-]
-
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         # 'oauth2_provider.ext.rest_framework.OAuth2Authentication',  # django-oauth-toolkit < 1.0.0
@@ -32,6 +21,6 @@ REST_FRAMEWORK = {
     ),
 }
 AUTHENTICATION_BACKENDS = (
-   'rest_framework_social_oauth2.backends.DjangoOAuth2',
-   'django.contrib.auth.backends.ModelBackend',
+    'rest_framework_social_oauth2.backends.DjangoOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
 )
