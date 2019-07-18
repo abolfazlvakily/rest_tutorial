@@ -12,3 +12,8 @@ INSTALLED_APPS += [
 INSTALLED_APPS += [
     'authentication.apps.AuthenticationConfig',
 ]
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'social_django.context_processors.backends',
+    'social_django.context_processors.login_redirect',
+)
