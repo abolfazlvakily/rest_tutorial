@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b0d0bc4-9b91-473c-9530-294656eb694f" name="Default Changelist" comment="startapp django_tutorial">
+    <list default="true" id="2b0d0bc4-9b91-473c-9530-294656eb694f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/django_tutorial/python manage.py shell" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_tutorial/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_tutorial/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_tutorial/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_tutorial/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest_test/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest_test/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +32,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/django_tutorial/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/django_tutorial/python manage.py shell">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django_tutorial/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +86,8 @@
         <option value="$PROJECT_DIR$/authentication/models.py" />
         <option value="$PROJECT_DIR$/rest_test/settings.py" />
         <option value="$PROJECT_DIR$/django_tutorial/models.py" />
+        <option value="$PROJECT_DIR$/django_tutorial/admin.py" />
+        <option value="$PROJECT_DIR$/django_tutorial/python manage.py shell" />
       </list>
     </option>
   </component>
@@ -172,7 +196,7 @@
       <workItem from="1563558080335" duration="1978000" />
       <workItem from="1563618991397" duration="4679000" />
       <workItem from="1563641328139" duration="530000" />
-      <workItem from="1563704973773" duration="959000" />
+      <workItem from="1563704973773" duration="6354000" />
     </task>
     <task id="LOCAL-00001" summary="project started">
       <created>1563386272196</created>
@@ -272,14 +296,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563641642393</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="created models.py on django_tutorial">
+      <created>1563706176094</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563706176094</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24055000" />
+    <option name="totallyTimeSpent" value="29450000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="33" width="1370" height="737" extended-state="7" />
+    <frame x="-2" y="33" width="1370" height="737" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27954546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,7 +354,8 @@
     <MESSAGE value="توانستم عمل کرد outh2 را در پنل ادمین مشاهده نمایم" />
     <MESSAGE value="تاابنجا یه لحظه rest رو متوقف کردم و رفتم رو  اپ django_tutorial" />
     <MESSAGE value="startapp django_tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="startapp django_tutorial" />
+    <MESSAGE value="created models.py on django_tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="created models.py on django_tutorial" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -396,10 +429,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/django_tutorial/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/django_tutorial/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_tutorial/python manage.py shell">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>

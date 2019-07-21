@@ -1,0 +1,31 @@
+# query
+from django_tutorial import models
+models.Question.objects.all()
+# insert to db
+from django.utils import timezone
+q = models.Question(text= 'text', tarikh= timezone.now())
+q.save()
+الان اگر q را فراخوانی کنی : فقط می گوید که این یه شی است. برای اینکه این اتفاق نیوفتد باید در هر مدلی تابع str را اضافه نمود
+الان برای اعمال این کار باید پایتون شل را یک بار ازش خارج شیم و دوباره وارد بشیم
+models.Question.objects.all()
+حالا برای دسترسی به اتریبیوت ها دیتابیس چی کار کنیم؟
+با توجه به این که متد آل یه لیست برمی گرداند پس باید بهش بگی که عنصر چندم را می خواهی
+q = models.Question.objects.all()[0]
+q.id
+q.text
+q.tarikh
+
+# UPDATE
+q.text = 'new text'
+q.save()
+و اما چگونه یک کلید خارجی را آپدیت کنیم؟
+انتخاب یکی از اشیا کلاس qusetion
+q = models.Question.objects.all()[0]
+## insert to choice table record
+c = models.Choice(question = q, text = 'choice text', vote = 3)
+حالا می خوام از طریق q یه choice اضافه کنم
+قبلش باید تمام choice هایی که به یه question متصل است
+q.choice_set.all()
+حالا می خوام اضافه کنم :
+q.choice_set.create(text = 'nesbatan goood', vote = 7)
+
