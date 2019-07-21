@@ -11,6 +11,7 @@ INSTALLED_APPS += [
 # در اینجا اپ ها افزوده می شوند.
 INSTALLED_APPS += [
     'authentication.apps.AuthenticationConfig',
+    'django_tutorial.apps.DjangoTutorialConfig',
 ]
 
 REST_FRAMEWORK = {
